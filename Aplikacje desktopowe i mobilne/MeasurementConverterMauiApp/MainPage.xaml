@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MeasurementConverterMauiApp.MainPage"
+             x:Name="thisPage"
+             BindingContext="{Binding thisPage}">
+
+    <StackLayout Padding="20">
+        <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand" Margin="30, 0, 30, 0">
+            <Label Text="Masa źródłowa:" VerticalOptions="Center"/>
+            <Picker SelectedItem="{Binding FromUnit}">
+                <Picker.ItemsSource>
+                    <x:Array Type="{x:Type x:String}">
+                        <x:String>mm</x:String>
+                        <x:String>cm</x:String>
+                        <x:String>m</x:String>
+                        <x:String>km</x:String>
+                    </x:Array>
+                </Picker.ItemsSource>
+            </Picker>
+        </StackLayout>
+
+        <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
+            <Label Text="Masa docelowa:" VerticalOptions="Center"/>
+            <Picker SelectedItem="{Binding ToUnit}">
+                <Picker.ItemsSource>
+                    <x:Array Type="{x:Type x:String}">
+                        <x:String>mm</x:String>
+                        <x:String>cm</x:String>
+                        <x:String>m</x:String>
+                        <x:String>km</x:String>
+                    </x:Array>
+                </Picker.ItemsSource>
+            </Picker>
+        </StackLayout>
+
+        <Label Text="Podaj miarę:"/>
+        <Entry Text="{Binding InputValue}" Keyboard="Numeric"/>
+
+        <Button Text="Oblicz" Clicked="OnConvertButtonClicked"/>
+
+        <Label Text="Wynik:" FontSize="30"/>
+        <Label Text="{Binding Result}" FontSize="50" />
+    </StackLayout>
+</ContentPage>
