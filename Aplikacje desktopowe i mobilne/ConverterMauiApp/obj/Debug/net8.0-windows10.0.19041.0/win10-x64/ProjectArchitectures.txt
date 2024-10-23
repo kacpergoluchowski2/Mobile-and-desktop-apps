@@ -1,0 +1,1 @@
+C:\Users\kacpe\Desktop\Projekty\Mobile-and-desktop-apps\Aplikacje desktopowe i mobilne\ConverterMauiApp\ConverterMauiApp.csproj;x64
