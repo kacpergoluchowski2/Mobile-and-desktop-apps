@@ -1,13 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "nrDTNDGnUeE=",
+  "dgSpecHash": "qy3hZ0WGKrs=",
   "success": true,
-  "projectFilePath": "C:\\Users\\kacpe\\Desktop\\Projekty\\Mobile-and-desktop-apps\\Aplikacje desktopowe i mobilne\\MoveOnBoardGame\\MoveOnBoardGame.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\kacpe\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\5.0.0\\microsoft.windowsdesktop.app.ref.5.0.0.nupkg.sha512",
-    "C:\\Users\\kacpe\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512",
-    "C:\\Users\\kacpe\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512",
-    "C:\\Users\\kacpe\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.17\\microsoft.netcore.app.host.win-x64.5.0.17.nupkg.sha512"
-  ],
+  "projectFilePath": "C:\\Users\\Sala213\\Documents\\kacperus-4b\\Mobile-and-desktop-apps\\Aplikacje desktopowe i mobilne\\MoveOnBoardGame\\MoveOnBoardGame.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }

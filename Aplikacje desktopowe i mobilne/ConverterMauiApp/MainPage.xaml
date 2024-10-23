@@ -3,14 +3,43 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="ConverterMauiApp.MainPage"
              xmlns:converters="clr-namespace:ConverterMauiApp.Converters">
-
-    <ContentPage.Resources>
+    <ContentPage.Resources> 
         <converters:GradeToTextGradeConverter x:Key="GradeToTextGradeConverter"/>
+        <converters:BoolToColorConverter x:Key="BoolToColorConverter"/>
+        <converters:BoolToTextConverter x:Key="SubBoolToTextConverter"
+                                        TrueMessage="Dziękuje"
+                                        FalseMessage="Szkoda"/>
+        <converters:BoolToTextConverter x:Key="AgeBoolToTextConverter"
+                                        TrueMessage="Pelnoletni"
+                                        FalseMessage="Niepełnoletni"/>
     </ContentPage.Resources>
 
     <StackLayout>
         <Label Text="Wprowadź ocenę ucznia:"/>
         <Entry x:Name="gradeEntry"/>
         <Label Text="{Binding Text, Source={x:Reference gradeEntry}, Converter={StaticResource GradeToTextGradeConverter}}"/>
+
+        <Label Text="Zaznaczony - czerwony tekst"/>
+        <CheckBox x:Name="colorChecBox"/>
+        <Label Text="Ten kolor bedzie zmieniany" 
+               TextColor="{Binding IsChecked, Source={x:Reference colorChecBox}, Converter={x:StaticResource BoolToColorConverter}}"/>
+
+        <StackLayout Orientation="Horizontal">
+            <Label Text="Zgoda rodzica: "
+                   VerticalOptions="Center"/>
+            <CheckBox x:Name="parentsCheckBox"/>
+            <Label VerticalOptions="Center"
+                   TextColor="{Binding IsChecked, Source={x:Reference parentsCheckBox}, Converter={x:StaticResource BoolToColorConverter}}">
+                <Label.Text>
+                    <Binding Source="{x:Reference parentsCheckBox}"
+                             Path="IsChecked">
+                        <Binding.Converter>
+                            <converters:BoolToTextConverter TrueMessage="Rodzic sie zgadza"
+                                                            FalseMessage="Rodzic sie nie zgadza"/>
+                        </Binding.Converter>
+                    </Binding>
+                </Label.Text>
+            </Label>
+        </StackLayout>
     </StackLayout>
 </ContentPage>
