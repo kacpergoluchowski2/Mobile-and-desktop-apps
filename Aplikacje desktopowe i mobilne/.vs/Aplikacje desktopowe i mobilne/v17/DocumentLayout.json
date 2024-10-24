@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Sala213\\Documents\\kacperus-4b\\Mobile-and-desktop-apps\\Aplikacje desktopowe i mobilne\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FA8AC8FB-C6BE-48F8-B38F-98509ACB0D1E}|ConverterMauiApp\\ConverterMauiApp.csproj|c:\\users\\sala213\\documents\\kacperus-4b\\mobile-and-desktop-apps\\aplikacje desktopowe i mobilne\\convertermauiapp\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{FA8AC8FB-C6BE-48F8-B38F-98509ACB0D1E}|ConverterMauiApp\\ConverterMauiApp.csproj|solutionrelative:convertermauiapp\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{FA8AC8FB-C6BE-48F8-B38F-98509ACB0D1E}|ConverterMauiApp\\ConverterMauiApp.csproj|c:\\users\\sala213\\documents\\kacperus-4b\\mobile-and-desktop-apps\\aplikacje desktopowe i mobilne\\convertermauiapp\\converters\\rgbtocolorconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA8AC8FB-C6BE-48F8-B38F-98509ACB0D1E}|ConverterMauiApp\\ConverterMauiApp.csproj|solutionrelative:convertermauiapp\\converters\\rgbtocolorconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FA8AC8FB-C6BE-48F8-B38F-98509ACB0D1E}|ConverterMauiApp\\ConverterMauiApp.csproj|c:\\users\\sala213\\documents\\kacperus-4b\\mobile-and-desktop-apps\\aplikacje desktopowe i mobilne\\convertermauiapp\\converters\\booltotextconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FA8AC8FB-C6BE-48F8-B38F-98509ACB0D1E}|ConverterMauiApp\\ConverterMauiApp.csproj|solutionrelative:convertermauiapp\\converters\\booltotextconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FA8AC8FB-C6BE-48F8-B38F-98509ACB0D1E}|ConverterMauiApp\\ConverterMauiApp.csproj|c:\\users\\sala213\\documents\\kacperus-4b\\mobile-and-desktop-apps\\aplikacje desktopowe i mobilne\\convertermauiapp\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{FA8AC8FB-C6BE-48F8-B38F-98509ACB0D1E}|ConverterMauiApp\\ConverterMauiApp.csproj|solutionrelative:convertermauiapp\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,26 +26,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "BoolToTextConverter.cs",
-              "DocumentMoniker": "C:\\Users\\Sala213\\Documents\\kacperus-4b\\Mobile-and-desktop-apps\\Aplikacje desktopowe i mobilne\\ConverterMauiApp\\Converters\\BoolToTextConverter.cs",
-              "RelativeDocumentMoniker": "ConverterMauiApp\\Converters\\BoolToTextConverter.cs",
-              "ToolTip": "C:\\Users\\Sala213\\Documents\\kacperus-4b\\Mobile-and-desktop-apps\\Aplikacje desktopowe i mobilne\\ConverterMauiApp\\Converters\\BoolToTextConverter.cs",
-              "RelativeToolTip": "ConverterMauiApp\\Converters\\BoolToTextConverter.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABDAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "RgbToColorConverter.cs",
+              "DocumentMoniker": "C:\\Users\\Sala213\\Documents\\kacperus-4b\\Mobile-and-desktop-apps\\Aplikacje desktopowe i mobilne\\ConverterMauiApp\\Converters\\RgbToColorConverter.cs",
+              "RelativeDocumentMoniker": "ConverterMauiApp\\Converters\\RgbToColorConverter.cs",
+              "ToolTip": "C:\\Users\\Sala213\\Documents\\kacperus-4b\\Mobile-and-desktop-apps\\Aplikacje desktopowe i mobilne\\ConverterMauiApp\\Converters\\RgbToColorConverter.cs*",
+              "RelativeToolTip": "ConverterMauiApp\\Converters\\RgbToColorConverter.cs*",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-23T12:36:05.594Z",
+              "WhenOpened": "2024-10-24T08:34:19.042Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "MainPage.xaml",
               "DocumentMoniker": "C:\\Users\\Sala213\\Documents\\kacperus-4b\\Mobile-and-desktop-apps\\Aplikacje desktopowe i mobilne\\ConverterMauiApp\\MainPage.xaml",
               "RelativeDocumentMoniker": "ConverterMauiApp\\MainPage.xaml",
               "ToolTip": "C:\\Users\\Sala213\\Documents\\kacperus-4b\\Mobile-and-desktop-apps\\Aplikacje desktopowe i mobilne\\ConverterMauiApp\\MainPage.xaml",
               "RelativeToolTip": "ConverterMauiApp\\MainPage.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAABfAAAAAAAAAA==",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAADoAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-10-23T11:49:24.281Z",
               "EditorCaption": ""

@@ -29,7 +29,7 @@
     <AppXManifest Include="C:\Users\Sala213\Documents\kacperus-4b\Mobile-and-desktop-apps\Aplikacje desktopowe i mobilne\ConverterMauiApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-10-23T13:36:50.040</Modified>
+      <Modified>2024-10-24T09:09:03.477</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -43,11 +43,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Sala213\Documents\kacperus-4b\Mobile-and-desktop-apps\Aplikacje desktopowe i mobilne\ConverterMauiApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\ConverterMauiApp.dll">
       <PackagePath>ConverterMauiApp.dll</PackagePath>
-      <Modified>2024-10-23T13:36:49.556</Modified>
+      <Modified>2024-10-24T09:09:03.001</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Sala213\Documents\kacperus-4b\Mobile-and-desktop-apps\Aplikacje desktopowe i mobilne\ConverterMauiApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>ConverterMauiApp.exe</PackagePath>
-      <Modified>2024-10-23T13:36:49.572</Modified>
+      <Modified>2024-10-24T09:09:03.009</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Sala213\Documents\kacperus-4b\Mobile-and-desktop-apps\Aplikacje desktopowe i mobilne\ConverterMauiApp\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
