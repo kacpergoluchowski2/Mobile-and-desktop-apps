@@ -1,17 +1,17 @@
 ﻿void dicing()
 {
     bool continuation = true;
+    int cubeAmount = 1;
+
+    while (cubeAmount < 3 || cubeAmount > 10)
+    {
+        Console.WriteLine("Ile kostek chcesz rzucić?(3 - 10)");
+        string cubeAmountStr = Console.ReadLine();
+        cubeAmount = Int32.Parse(cubeAmountStr);
+    }
 
     while (continuation)
-    {
-        int cubeAmount = 1;
-        while (cubeAmount < 3 || cubeAmount > 10)
-        {
-            Console.WriteLine("Ile kostek chcesz rzucić?(3 - 10)");
-            string cubeAmountStr = Console.ReadLine();
-            cubeAmount = Int32.Parse(cubeAmountStr);
-        }
-
+    {        
         int[] randomNumbers = new int[cubeAmount];
 
         generateNumbers(randomNumbers);
@@ -22,7 +22,7 @@
             Console.WriteLine("Kostka " + currentIndex + ": " + randomNumbers[i]);
         }
 
-        sumOfNumbers(randomNumbers);
+        Console.WriteLine("Suma uzyskanych punktów: " + sumOfNumbers(randomNumbers));
 
         Console.WriteLine("Jeszcze raz?(t/n)");
         string choice = Console.ReadLine();
@@ -42,7 +42,7 @@ void generateNumbers(int[] numbers)
     }
 }
 
-void sumOfNumbers(int[] numbers)
+int sumOfNumbers(int[] numbers)
 {
     int sumOfNumbers = 0;
     Dictionary<int, int> countMap = new Dictionary<int, int>();
@@ -60,10 +60,14 @@ void sumOfNumbers(int[] numbers)
     }
 
     foreach (var value in countMap)
+    {
         if (value.Value > 1)
+        {
             sumOfNumbers += value.Key * value.Value;
-
-    Console.WriteLine("Liczba uzyskanych punktów: " + sumOfNumbers);
+        }
+    }
+        
+    return sumOfNumbers;
 }
 
 dicing();

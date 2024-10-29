@@ -35,20 +35,12 @@
             return sumOfNumbers;
         }
 
-        private void Button_Clicked(object sender, EventArgs e)
+        private void draw(object sender, EventArgs e)
         {
             Random random = new Random();
-            int result = 0; 
             for(int i = 0; i < 5; i++)
             {
                 randomNumbers[i] = random.Next(1, 7);
-                for(int j = 0; j < i; j++)
-                {
-                    if (i == j)
-                        break;
-                    else if (randomNumbers[i] == randomNumbers[j])
-                        result += randomNumbers[i];
-                }
                 imagesNames[i] = "k" + randomNumbers[i] + ".jpg"; 
             }
 

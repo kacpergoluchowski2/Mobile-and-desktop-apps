@@ -13,7 +13,7 @@
                 Background="Chocolate"
                 Margin="0, 10"
                 HorizontalOptions="Center"
-                Clicked="Button_Clicked"/>
+                Clicked="draw"/>
         <Grid ColumnDefinitions="*, *, *, *, *" Background="white">
             <Image Source="question.jpg" 
                    Grid.Column="0" 
@@ -51,7 +51,6 @@
                Margin="0, 10"
                HorizontalOptions="Center"
                x:Name="thisDrawResult"/>
-
         <Label Text="Wynik gry: "
                Margin="0, 10"
                HorizontalOptions="Center"
