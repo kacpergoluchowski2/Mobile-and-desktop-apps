@@ -12,35 +12,35 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = BindingCalculator
-build_property.ProjectDir = C:\Users\Sala213\Documents\kacperus-4b\Mobile-and-desktop-apps\Aplikacje desktopowe i mobilne\BindingCalculator\
+build_property.ProjectDir = C:\Users\kacpe\Desktop\Projekty\Mobile-and-desktop-apps\Aplikacje desktopowe i mobilne\BindingCalculator\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 
-[C:/Users/Sala213/Documents/kacperus-4b/Mobile-and-desktop-apps/Aplikacje desktopowe i mobilne/BindingCalculator/App.xaml]
+[C:/Users/kacpe/Desktop/Projekty/Mobile-and-desktop-apps/Aplikacje desktopowe i mobilne/BindingCalculator/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = BindingCalculator.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
 build_metadata.AdditionalFiles.RelativePath = App.xaml
 
-[C:/Users/Sala213/Documents/kacperus-4b/Mobile-and-desktop-apps/Aplikacje desktopowe i mobilne/BindingCalculator/AppShell.xaml]
+[C:/Users/kacpe/Desktop/Projekty/Mobile-and-desktop-apps/Aplikacje desktopowe i mobilne/BindingCalculator/AppShell.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = BindingCalculator.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
-[C:/Users/Sala213/Documents/kacperus-4b/Mobile-and-desktop-apps/Aplikacje desktopowe i mobilne/BindingCalculator/MainPage.xaml]
+[C:/Users/kacpe/Desktop/Projekty/Mobile-and-desktop-apps/Aplikacje desktopowe i mobilne/BindingCalculator/MainPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = BindingCalculator.MainPage.xaml
 build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
 build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
 
-[C:/Users/Sala213/Documents/kacperus-4b/Mobile-and-desktop-apps/Aplikacje desktopowe i mobilne/BindingCalculator/Resources/Styles/Colors.xaml]
+[C:/Users/kacpe/Desktop/Projekty/Mobile-and-desktop-apps/Aplikacje desktopowe i mobilne/BindingCalculator/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = BindingCalculator.Resources.Styles.Colors.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
 
-[C:/Users/Sala213/Documents/kacperus-4b/Mobile-and-desktop-apps/Aplikacje desktopowe i mobilne/BindingCalculator/Resources/Styles/Styles.xaml]
+[C:/Users/kacpe/Desktop/Projekty/Mobile-and-desktop-apps/Aplikacje desktopowe i mobilne/BindingCalculator/Resources/Styles/Styles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = BindingCalculator.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
