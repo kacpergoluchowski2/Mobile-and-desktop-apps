@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Dicing")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d8f051d761a0904b4e655ac1f09ff3810c8e0d7b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d5e2c1df680bdadae1e9d6d7f1cae51efe07531a")]
 [assembly: System.Reflection.AssemblyProductAttribute("Dicing")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Dicing")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

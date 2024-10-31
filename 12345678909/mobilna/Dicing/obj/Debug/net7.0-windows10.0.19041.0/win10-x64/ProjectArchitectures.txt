@@ -1,1 +1,1 @@
-C:\Users\kacpe\Desktop\Projekty\Mobile-and-desktop-apps\12345678909\mobilna\Dicing\Dicing.csproj;x64
+C:\Users\Sala213\Documents\kacperus-4b\Mobile-and-desktop-apps\12345678909\mobilna\Dicing\Dicing.csproj;x64

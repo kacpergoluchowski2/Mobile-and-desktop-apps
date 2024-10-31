@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\kacpe\\Desktop\\Projekty\\Mobile-and-desktop-apps\\12345678909\\konsolowa\\Dicing\\Dicing.csproj": {}
+    "C:\\Users\\Sala213\\Documents\\kacperus-4b\\Mobile-and-desktop-apps\\12345678909\\konsolowa\\Dicing\\Dicing.csproj": {}
   },
   "projects": {
-    "C:\\Users\\kacpe\\Desktop\\Projekty\\Mobile-and-desktop-apps\\12345678909\\konsolowa\\Dicing\\Dicing.csproj": {
+    "C:\\Users\\Sala213\\Documents\\kacperus-4b\\Mobile-and-desktop-apps\\12345678909\\konsolowa\\Dicing\\Dicing.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kacpe\\Desktop\\Projekty\\Mobile-and-desktop-apps\\12345678909\\konsolowa\\Dicing\\Dicing.csproj",
+        "projectUniqueName": "C:\\Users\\Sala213\\Documents\\kacperus-4b\\Mobile-and-desktop-apps\\12345678909\\konsolowa\\Dicing\\Dicing.csproj",
         "projectName": "Dicing",
-        "projectPath": "C:\\Users\\kacpe\\Desktop\\Projekty\\Mobile-and-desktop-apps\\12345678909\\konsolowa\\Dicing\\Dicing.csproj",
-        "packagesPath": "C:\\Users\\kacpe\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kacpe\\Desktop\\Projekty\\Mobile-and-desktop-apps\\12345678909\\konsolowa\\Dicing\\obj\\",
+        "projectPath": "C:\\Users\\Sala213\\Documents\\kacperus-4b\\Mobile-and-desktop-apps\\12345678909\\konsolowa\\Dicing\\Dicing.csproj",
+        "packagesPath": "C:\\Users\\Sala213\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Sala213\\Documents\\kacperus-4b\\Mobile-and-desktop-apps\\12345678909\\konsolowa\\Dicing\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\kacpe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Sala213\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -65,7 +65,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

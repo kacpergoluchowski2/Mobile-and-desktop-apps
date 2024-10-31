@@ -1,7 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="Dicing.MainPage">
+             x:Class="Dicing.MainPage"
+             xmlns:local="clr-namespace:Dicing">
+    <ContentPage.BindingContext>
+        <local:ExamVievModel/>
+    </ContentPage.BindingContext>
 
     <StackLayout Background="beige">
         <Label Text="Gra w kości. Autor: Kacperus12345pl" 
@@ -13,52 +17,45 @@
                 Background="Chocolate"
                 Margin="0, 10"
                 HorizontalOptions="Center"
-                Clicked="draw"/>
+                Command="{Binding DrawCommand}"/>
         <Grid ColumnDefinitions="*, *, *, *, *" Background="white">
-            <Image Source="question.jpg" 
+            <Image Source="{Binding CubeOne}" 
                    Grid.Column="0" 
                    HorizontalOptions="Fill" 
                    HeightRequest="60" 
-                   Margin="9"
-                   x:Name="cubeOne"/>
-            <Image Source="question.jpg" 
+                   Margin="9"/>
+            <Image Source="{Binding CubeTwo}" 
                    Grid.Column="1" 
                    HorizontalOptions="Fill" 
                    HeightRequest="60" 
-                   Margin="9"
-                   x:Name="cubeTwo"/>
-            <Image Source="question.jpg" 
+                   Margin="9"/>
+            <Image Source="{Binding CubeThree}" 
                    Grid.Column="2" 
                    HorizontalOptions="Fill" 
                    HeightRequest="60" 
-                   Margin="9"
-                   x:Name="cubeThree"/>
-            <Image Source="question.jpg" 
+                   Margin="9" />
+            <Image Source="{Binding CubeFour}" 
                    Grid.Column="3" 
                    HorizontalOptions="Fill" 
                    HeightRequest="60" 
-                   Margin="9"
-                   x:Name="cubeFour"/>
-            <Image Source="question.jpg" 
+                   Margin="9" />
+            <Image Source="{Binding CubeFive}" 
                    Grid.Column="4" 
                    HorizontalOptions="Fill" 
                    HeightRequest="60" 
-                   Margin="9"
-                   x:Name="cubeFive"/>
+                   Margin="9" />
         </Grid>
 
-        <Label Text="Wynik tego losowania"
+        <Label Text="{Binding ThisDrawResult}"
                Margin="0, 10"
-               HorizontalOptions="Center"
-               x:Name="thisDrawResult"/>
-        <Label Text="Wynik gry: "
+               HorizontalOptions="Center" />
+        <Label Text="{Binding GameResult}"
                Margin="0, 10"
-               HorizontalOptions="Center"
-               x:Name="gameResult   "/>
+               HorizontalOptions="Center"/>
         <Button Text="RESETUJ WYNIK" 
-                Background="Chocolate"
-                Margin="0, 10"
-                HorizontalOptions="Center"
-                Clicked="Reset"/>
+               Background="Chocolate"
+               Margin="0, 10"
+               HorizontalOptions="Center"
+               Command="{Binding ResetCommand}"/>
     </StackLayout>
 </ContentPage>

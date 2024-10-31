@@ -45,25 +45,25 @@ void generateNumbers(int[] numbers)
 int sumOfNumbers(int[] numbers)
 {
     int sumOfNumbers = 0;
-    Dictionary<int, int> countMap = new Dictionary<int, int>();
+    Dictionary<int, int> repetitions = new Dictionary<int, int>();
 
     for (int i = 0; i < numbers.Length; i++)
     {
-        if (countMap.ContainsKey(numbers[i]))
+        if (repetitions.ContainsKey(numbers[i]))
         {
-            countMap[numbers[i]]++;
+            repetitions[numbers[i]]++;
         }
         else
         {
-            countMap[numbers[i]] = 1;
+            repetitions[numbers[i]] = 1;
         }
     }
 
-    foreach (var value in countMap)
+    foreach (var pair in repetitions)
     {
-        if (value.Value > 1)
+        if (pair.Value > 1)
         {
-            sumOfNumbers += value.Key * value.Value;
+            sumOfNumbers += pair.Key * pair.Value;
         }
     }
         

@@ -20,7 +20,7 @@
           "runtimepack.Microsoft.Maui.Core.Runtime.win": "7.0.101",
           "runtimepack.Microsoft.Maui.Controls.Runtime.win": "7.0.101",
           "runtimepack.Microsoft.Maui.Essentials.Runtime.win": "7.0.101",
-          "runtimepack.Microsoft.Windows.SDK.NET.Ref": "10.0.19041.43"
+          "runtimepack.Microsoft.Windows.SDK.NET.Ref": "10.0.19041.34"
         },
         "runtime": {
           "Dicing.dll": {}
@@ -778,15 +778,15 @@
           }
         }
       },
-      "runtimepack.Microsoft.Windows.SDK.NET.Ref/10.0.19041.43": {
+      "runtimepack.Microsoft.Windows.SDK.NET.Ref/10.0.19041.34": {
         "runtime": {
           "Microsoft.Windows.SDK.NET.dll": {
-            "assemblyVersion": "10.0.19041.38",
-            "fileVersion": "10.0.19041.43"
+            "assemblyVersion": "10.0.19041.24",
+            "fileVersion": "10.0.19041.34"
           },
           "WinRT.Runtime.dll": {
-            "assemblyVersion": "2.1.0.0",
-            "fileVersion": "2.1.2.47512"
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.8.46841"
           }
         }
       },
@@ -1022,7 +1022,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "runtimepack.Microsoft.Windows.SDK.NET.Ref/10.0.19041.43": {
+    "runtimepack.Microsoft.Windows.SDK.NET.Ref/10.0.19041.34": {
       "type": "runtimepack",
       "serviceable": false,
       "sha512": ""
